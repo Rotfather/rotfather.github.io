@@ -33,7 +33,7 @@
     "gulp-gh-pages": "^0.5.4"
   },
   "gh-pages-deploy": {
-    "staticpath": "/public",
+    "staticpath": "public/",
     "post": [
       "clean-source"
     ],
@@ -44,7 +44,7 @@
     "dev": "NODE_ENV=development gulp server",
     "production": "NODE_ENV=production gulp server",
     "deploy": "NODE_ENV=production gulp build && gh-pages-deploy",
-    "clean-source": "rimraf README.md src .gitignore .gulpfile.js gulp package.json"
+    "clean-source": "rimraf README.md src .gitignore .gulpfile.js gulp package.json node_modules"
   },
   "author": "",
   "license": "BSD-2-Clause"
