@@ -34,7 +34,6 @@
   },
   "gh-pages-deploy": {
     "staticpath": "/public",
-    "cname": "nope.org",
     "post": [
       "clean-source"
     ],
@@ -44,7 +43,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development gulp server",
     "production": "NODE_ENV=production gulp server",
-    "deploy": "NODE_ENV=production gulp-build && gh-pages-deploy",
+    "deploy": "NODE_ENV=production gulp build && gh-pages-deploy",
     "clean-source": "rimraf README.md src .gitignore .gulpfile.js gulp package.json"
   },
   "author": "",
