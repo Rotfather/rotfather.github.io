@@ -1,0 +1,102 @@
+{
+  "language": "en",
+  "nav": {
+    "home": "Home",
+    "product": "Product",
+    "game": "Game",
+    "contact": "Contact Us",
+    "project": "Project"
+  },
+  "pageTitle": "Rotfather",
+  "home_intro": "The Rotfather is a 2D game about the history of Al Kane, he is betrayed and has to get his dealing empire back",
+  "home_text2": "The Rotfather is in Greenlight",
+  "home_cta": "Greenlight Us",
+  "partners": "partners",
+  "productsTitle": "The Rotfather products",
+  "productsIntroText": "It has survived not only five centuries, centuries, centuries",
+  "productsDescription": "The Rotfather is a transmedia project that has a complex mafia storyworld spread differently in a good number of mediums, beside the 2D Game, it is been developed a 2D animated series, comic books, audio books, card games, boardgames, a short movie, a movie, licensed and merchandising products.",
+  "products": [
+    {
+      "title": "The Animed 2D Series",
+      "description": "The 2D animation series consist in four seasons, composed of 13 epidodes. It will possible to discover some special things about the story, as a character insterest and motivations. The story is like a puzzle whre the pieces can be collected and connected during the episodes and seasons."
+    },
+    {
+      "title": "The Comic Books (HQ)",
+      "description": "There are 5 comic books, each one tells the story of one character, the comics allows to know the characters, their relationships and intrigues."
+    },
+    {
+      "title": "The Audio Books",
+      "description": "The stoyline is about a rat journalist. Her investigations about on crimes shows a city - with different facets - and surroundings - full of animals looking for power. Through her eyes, lots of mysteries can be seen - corruption in the political scene and inside the media. In this world, the sugar mafia system is only one more more facet of this city, and target of her investigations too. It is possible to see as well,  how the “city” treats the ones who advantures  themselves trying to investigate the crimes."
+    },
+    {
+      "title": "Books",
+      "description": "The story is about a rat detective who was Al Kane’s best friend when they were children, and now tries to restore order in the sewers, where cases and more cases of violence and murderer associated to the sugar mafia happen all the time. It is a story of someone who wants to restore the order in the system, but every time he thinks he can do that, he finds his old friend behind a crime, and gets confused."
+    },
+    {
+      "title": "Card Games and Board Games",
+      "description": "Both uses aspects of the sugar mafia system  to create mechanics , rules, goals, and experiences  where the playes can be a mafia guy or not. In some games, the player have to collaborate with a mafia colleague, in others the player will have to kill the mafia guys."
+    },
+    {
+      "title": "Movies",
+      "description": "It`s a story of surviving in a very complicated  system and how to get rif of that."
+    },
+    {
+      "title": "Licensed and Merchandising Products",
+      "description": "The Rotfather has several licensed products, statues, mugs, shirts, bottoms, key chains, among others in development. Below some poster of the limited edition released last year."
+    }
+  ],
+  "gameTitle": "The Game",
+  "gameIntroText": "This is a story on the underworld, about revenge and redemption",
+  "gametext1": "This is the story of a rat called Al Kane, who lives in New York's sewers in the 40s. During the underworlds prohibition of sugar commercialization he built an empire out of trafficking, creating a very powerful mafia system. But after the mysterious death of his right-hand man, he was betrayed, beaten up and left for dead by the hands of a cockroach gang. Now he is back to figure out what happened and who betrayed him.",
+  "gametext2": "Al Kane will try to recover his empire, each area at a time, exploring a sewer system that is connected by complex pathways. He also has to free his partners who controlled each of the sugar distribution points. Immersed in a sea of intrigue, where animals and insects live and work both together and against each other, he doesn't know who to trust. The only thing he knows is where everything begins: in Madam Laura's Cabaret...",
+  "conceptArtTitle": "The Concept Art",
+  "conceptArtText": "Below it is possible to check out some of the concept arts of the game",
+  "concepts": [
+    {
+      "title": "The Downtown",
+      "description":"Downtown is home to every kind of creature (which belongs to the Downtown)."
+    },
+    {
+      "title": "The Financial District",
+      "description":"The financial district! The lower greed and the greatest need, are paid in the same currency. "
+    },
+    {
+      "title": "The Port",
+      "description":"A small port on the river that runs through the city. "
+    },
+    {
+      "title": "The Village",
+      "description": "In the village, the workers arrive home when the sun is rising. Some people find strange the region is well cared for, but its inhabitants are proud of, while also do not understand the ever so clean streets."
+    },
+    {
+      "title": "The Docks",
+      "description": "The docks, a unique landscape where a waterfall meets the ocean. Many imports enter by way. The frogs come this way, together with their weapons."
+    }
+  ],
+  "conceptsInDevelopment": "Other Concepts in Development",
+  "contactTitle": "Contact Us",
+  "contactDescription": "Interested in being part of the project?",
+  "contactIntroText": "The Rotfather is developed by the research group G2E.",
+  "contactProjectCoordinator": "Project Coordinator",
+  "contactOurLocation": "Our Location",
+  "projectTitle": "Who we are",
+  "projectTitle2": "Students, professionals, specialists",
+  "projectSubtitle": "We are creative people and passionate about what we believe",
+  "projectDescription": "The Rotfather project is developed by the research group G2E - Education and the Entertainment Group from the Design course at the Federal University of Santa Catarina. Under the coordination of Professor Dr. Monica Stein, in our team, we have graduate and undergraduate students, from different areas: design, animation, design management, advertising, cinema, games, information systems, music, and others.",
+  "projectCategories": {
+    "design_management": "Design Management",
+    "animation": "Animation",
+    "art": "Art",
+    "sound": "Sound",
+    "game": "Game",
+    "script": "Script",
+    "threeD": "3D",
+    "voice_over": "Voice Over",
+    "board_games": "Board Games",
+    "licensed_products": "Licensed Products",
+    "translator": "Translator",
+    "ux_ui": "UX/UI Design",
+    "front_end": "Front-end Designer",
+    "press_advisor": "Press Advisor"
+  }
+}

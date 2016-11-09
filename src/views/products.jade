@@ -1,0 +1,30 @@
+extends ./includes/layout.jade
+block content
+  header.hero-product-image
+    img.img-responsive(src="#{context_path}/assets/images/product_hero.jpg")
+  .container.hero-text-container.mbt
+    h1.heading-1= content.productsTitle
+    p= content.productsDescription
+    img.img-responsive(src="#{context_path}/assets/images/product_hero2.jpg")
+
+  .container  
+    each product, index in content.products
+      section.section
+        h3.leading.heading-3= product.title
+        p= product.description
+        if(index == 4)
+          .row
+            .col-xs-6
+              img.img-responsive(src="#{context_path}/assets/images/products/card_games/1.jpg")
+            .col-xs-6
+              img.img-responsive(src="#{context_path}/assets/images/products/card_games/2.jpg")
+        else
+          img.img-responsive.img-break(src="#{context_path}/assets/images/products/"+index+".jpg")
+          if(index == 6)
+            .row
+              .col-xs-4
+                img.img-responsive(src="#{context_path}/assets/images/products/posters/1.jpg")
+              .col-xs-4
+                img.img-responsive(src="#{context_path}/assets/images/products/posters/2.jpg")
+              .col-xs-4
+                img.img-responsive(src="#{context_path}/assets/images/products/posters/3.jpg")

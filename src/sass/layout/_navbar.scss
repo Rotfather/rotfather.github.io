@@ -1,0 +1,81 @@
+.navbar {
+  position: relative;
+  margin-bottom: 0;
+  background-color: black;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 0;
+  height: $base-line-height * 3;
+  @media(min-width: 768px) {
+    height: 65px;
+  }
+  .nav {
+    @media(min-width: 768px) {
+      float: right;
+    }
+    > li {
+      > a {
+        font-weight: bold;
+        text-transform: uppercase;
+        @include type-setting(-1);
+        color: white;
+        @media(min-width: 768px) {
+          padding-top: 24px;
+        }
+        &:hover {
+          background-color: $nav-item-hover;
+        }
+      }
+    }
+  }
+}
+
+.navbar-brand img {
+  width: 140px;
+  @media(min-width: 768px) {
+    width: 180px;
+  }
+}
+
+.navbar-brand {
+  z-index: 9999;
+  @media(min-width: 768px) {
+    position: absolute;
+    background: black;
+    height: auto;
+  }
+}
+
+.navbar-toggle {
+  .icon-bar {
+    width: $base-line-height * 1.5;
+    height: 4px;
+    background-color: white;
+    & + .icon-bar {
+      margin-top: 6px;
+    }
+  }
+}
+
+.navbar  .navbar-collapse {
+  @media(max-width: 767px) {
+    width: 200px;
+    right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: auto;
+    position: absolute;
+    background-color: black;
+    z-index: 999;
+    .navbar-nav {
+      margin-top: 0;
+      margin-bottom: 0;
+      li a {
+        line-height: 50px;
+        font-size: 16px;
+        font-family: "Beba Neue";
+        text-transform: uppercase;
+      }
+    }
+  }
+}

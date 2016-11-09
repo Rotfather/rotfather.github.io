@@ -1,0 +1,25 @@
+extends ./includes/layout.jade
+block content
+  header.hero-image
+    img.img-responsive(src="#{context_path}/assets/images/home_hero.jpg")
+  .container.hero-text-container
+    h1.display= content.home_intro
+  section.video-container
+    #player
+  .container.hero-text-container
+    h2.mtd.mb= content.home_text2
+    button.btn.btn-ghost.btn-lg= content.home_cta
+  section.container-fluid
+    h2.heading-2.heading-border= content.partners
+    .t
+      .t-cell-10
+        img.img-partners(src="#{context_path}/assets/images/partners/ufsc.png")
+      .t-cell-10
+        img.img-partners(src="#{context_path}/assets/images/partners/unity-logo.png")
+      .t-cell-10
+        img.img-partners(src="#{context_path}/assets/images/partners/studica_logo.png")
+      .t-cell-10
+        img.img-partners#g2e-brand(src="#{context_path}/assets/images/partners/girafas.png")
+      .t-cell-10
+        img.img-partners(src="#{context_path}/assets/images/partners/zbrush.png")
+  script(src="#{context_path}/assets/js/youtubeLoader.js")

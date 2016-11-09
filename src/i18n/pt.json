@@ -1,0 +1,102 @@
+{
+  "language": "pt",
+  "nav": {
+    "home": "Home",
+    "product": "Produto",
+    "game": "Jogo",
+    "contact": "Contato",
+    "project": "Projeto"
+  },
+  "pageTitle": "Rotfather",
+  "home_intro": "The Rotfather is a 2D game about the history of Al Kane, he is betrayed and has to get his dealing empire back",
+  "home_text2": "The Rotfather is in Greenlight",
+  "home_cta": "Greenlight Us",
+  "partners": "partners",
+  "productsTitle": "Os produtos Rotfather",
+  "productsIntroText": "It has survived not only five centuries, centuries, centuries",
+  "productsDescription": "O Rodfather é um projeto transmídia que tem um storyworld complexo sobre mafia abordado de forma diferente várias mídias, além do jogo em 2D, está sendo desenvolvido uma série de animação 2D, histórias em quadrinhos, livros de áudio, jogos de cartas, jogos de tabuleiro, um filme curta metragem, um filme loga metragem, produtos licenciados e de merchandising.",
+  "products": [
+    {
+      "title": "A animação 2D",
+      "description": "A série de animação 2D consistem em quatro temporadas, composta por 13 episódios. Será possível descobrir algumas coisas especiais sobre a história, como interesses e motivações de personagens da trama. A história é como um quebra-cabeça onde as peças podem ser ligadas durante os episódios e temporadas."
+    },
+    {
+      "title": "A história em quadrinhos",
+      "description": "Há 5 histórias em quadrinhos, cada uma conta a história de um personagem,permitindo conhecer os personagens, seus relacionamentos e intrigas."
+    },
+    {
+      "title": "The Audio Books",
+      "description": "A história é sobre um rato jornalista. Suas investigações sobre os crimes mostra uma cidade - com diferentes facetas - e arredores - cheia de animais procurando por poder. Através de seus olhos, muitos mistérios podem ser vistos - a corrupção na cena política e dentro da mídia. Neste mundo, o sistema mafioso de açúcar é apenas mais faceta desta cidade, e alvo de suas investigações também. É possível ver também, como a 'cidade' trata quem se aventura a tentar investigar os crimes."
+    },
+    {
+      "title": "Livros",
+      "description": "A história é sobre um detetive rato que era o melhor amigo de Al Kane quando eram crianças, e agora tenta restaurar a ordem nos esgotos, onde casos e mais casos de violência e assassinato associados à máfia de açúcar acontecem o tempo todo. É uma história de alguém que quer restaurar a ordem no sistema, mas cada vez que ele acha que pode fazer isso, ele encontra o seu velho amigo por trás do crime, e fica confuso."
+    },
+    {
+      "title": "Jogos de cartas e jogos de tabuleiro",
+      "description": "Both uses aspects of the sugar mafia system  to create mechanics , rules, goals, and experiences  where the playes can be a mafia guy or not. In some games, the player have to collaborate with a mafia colleague, in others the player will have to kill the mafia guys."
+    },
+    {
+      "title": "Filmes",
+      "description": "É uma história de sobrevivencia em um sistema muito complicado e sobre como se livrar dele."
+    },
+    {
+      "title": "Produtos licenciados e merchandising",
+      "description": "O Rothfather tem diversos produtos licenciados, estátuas, canecas, camisas, calças, chaveiros, entre outros em desenvolvimento. Abaixo alguns posters de edição limitada lançado no ano passado."
+    }
+  ],
+  "gameTitle": "O Jogo",
+  "gameIntroText": "Esta é uma história sobre o submundo, sobre vingança e redenção",
+  "gametext1": "A história  é sobre um rato chamado AL Kane, que vive nos esgotos de Nova York, na década de 40. Durante a proibição de açúcar no submundos da cidade, ele construiu um império do tráfico, criando um sistema mafioso muito poderoso. Mas, depois da misteriosa morte do seu braço direito, ele foi traído, espancado e deixado para morrer pelas mãos de um bando de baratas. Agora ele está de volta para descobrir o que aconteceu e quem o traiu.",
+  "gametext2": "Al Kane vai tentar recuperar seu império, parte por parte,  explorando um sistema de esgoto que está ligado por caminhos complexos. Ele também tem que libertar seus parceiros que controlavam cada um dos pontos de distribuição de açúcar. Imerso em um mar de intriga, onde os animais e insetos vivem e trabalham juntos e uns contra os outros, ele não sabe em quem confiar. A única coisa que ele sabe é onde tudo começa: no cabaré de Madame Laura ...",
+  "conceptArtTitle": "Arte Conceitual",
+  "conceptArtText": "Abaixo você pode ver algumas das artes conceituais do jogo",
+  "concepts": [
+    {
+      "title": "Centro da Cidade",
+      "description":"O centro da cidade abriga todo tipo de criatura (que pertence ao centro da cidade)."
+    },
+    {
+      "title": "Distrito Financeiro",
+      "description":"O distrito financeiro! A menor ganância e a maior necessidade, são pagos com a mesma moeda."
+    },
+    {
+      "title": "Porto",
+      "description":"Um pequeno porto no rio que corta a cidade."
+    },
+    {
+      "title": "Vila-Baixa",
+      "description": "Na Vila-Baixa os trabalhadores chegam em casa quando o sol está nascendo. Há quem ache estranho a região ser bem cuidada, mas seus habitantes se orgulham, ao mesmo tempo que também não entendem as ruas sempre tão limpas."
+    },
+    {
+      "title": "Docas",
+      "description": "As docas, uma paisagem única onde uma cachoeira encontra o oceano. Por aqui entram muitas das importações. Por aqui entraram os Sapos, juntos de suas armas."
+    }
+  ],
+  "conceptsInDevelopment": "Other Concepts in Development",
+  "contactTitle": "Contate-nos",
+  "contactDescription": "Gostaria de fazer parte do projeto?",
+  "contactIntroText": "O projeto Rotfather é desenvolvido pelo grupo de pesquisa G2E da UFSC.",
+  "contactProjectCoordinator": "Coordenadora do projeto",
+  "contactOurLocation": "Onde estamos?",
+  "projectTitle": "Who we are",
+  "projectTitle2": "Students, professionals, specialists",
+  "projectSubtitle": "We are creative people and passionate about what we believe",
+  "projectDescription": "The Rotfather project is developed by the research group G2E - Education and the Entertainment Group from the Design course at the Federal University of Santa Catarina. Under the coordination of Professor Dr. Monica Stein, in our team, we have graduate and undergraduate students, from different areas: design, animation, design management, advertising, cinema, games, information systems, music, and others.",
+  "projectCategories": {
+    "design_management": "Gestão de Design",
+    "animation": "Animação",
+    "art": "Arte",
+    "sound": "Som",
+    "game": "Game",
+    "script": "Roteiro",
+    "threeD": "3D",
+    "voice_over": "Narração",
+    "board_games": "Jogos de Tabuleiro",
+    "licensed_products": "Produtos Licenciados",
+    "translator": "Tradutor",
+    "ux_ui": "UX/UI Design",
+    "front_end": "Front-end Designer",
+    "press_advisor": "Assessor de Imprensa"
+  }
+}
