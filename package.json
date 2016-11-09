@@ -33,12 +33,8 @@
     "gulp-gh-pages": "^0.5.4"
   },
   "gh-pages-deploy": {
-    "staticpath": "dist",
+    "staticpath": "/public",
     "cname": "nope.org",
-    "prep": [
-      "build-sass",
-      "optimize-img"
-    ],
     "post": [
       "clean-source"
     ],
@@ -48,7 +44,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development gulp server",
     "production": "NODE_ENV=production gulp server",
-    "deploy": "NODE_ENV=production gulp-build && gh-pages-deploy"
+    "deploy": "NODE_ENV=production gulp-build && gh-pages-deploy",
+    "clean-source": "rimraf README.md src .gitignore .gulpfile.js gulp package.json"
   },
   "author": "",
   "license": "BSD-2-Clause"
