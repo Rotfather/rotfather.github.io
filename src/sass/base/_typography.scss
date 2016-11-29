@@ -137,9 +137,12 @@ p.display {
   display: inline-block;
   padding-right: 40px;
   border-bottom: 2px solid #919191;
-  margin: 55px 0;
   font-size: 1.5rem;
   color: #919191;
   font-weight: bold;
   letter-spacing: 2px;
+  margin: 40px 0 20px 0;
+  // @media(min-width: 600px) {
+  //   margin: 55px 0;
+  // }
 }

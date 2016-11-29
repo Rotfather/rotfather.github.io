@@ -3,6 +3,11 @@
   text-transform: uppercase;
   background-color: transparent;
   border: 1px solid black;
+  color: $primary-color; 
+  &:hover {
+    background-color: $primary-color;
+    color: white;
+  }
 }
 
 
