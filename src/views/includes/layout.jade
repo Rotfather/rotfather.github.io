@@ -27,22 +27,22 @@ html(lang="en")
           ul.nav.navbar-nav
             if content.language == 'pt'
               li  
-                a(href="./products.html")= content.nav.product
-              li  
                 a(href="./game.html")= content.nav.game  
               li  
-                a(href="./contact.html")= content.nav.contact 
+                a(href="./products.html")= content.nav.product
               li  
                 a(href="/project.html")= content.nav.project     
-            if content.language == 'en'
               li  
-                a(href="products.html")= content.nav.product
+                a(href="./contact.html")= content.nav.contact 
+            if content.language == 'en'
               li  
                 a(href="game.html")= content.nav.game 
               li  
-                a(href="contact.html")= content.nav.contact   
+                a(href="products.html")= content.nav.product  
               li  
                 a(href="project.html")= content.nav.project       
+              li  
+                a(href="contact.html")= content.nav.contact   
             if content.language == 'pt'
               li
                 a.js-locale-change(data-language="en") change language to en
