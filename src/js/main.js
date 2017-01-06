@@ -4,6 +4,9 @@ var _ = require('ramda');
 
 var url = window.location.pathname;
 
+// If you change the url you may need to modify this number
+var indexOfAddedLanguage = 1;
+
 var split = _.curry(function(term, string) {
   return string.split(term);
 });
@@ -26,7 +29,7 @@ var removeOnArray = _.curry(function(arr, index) {
 
 var URLInsertOnIndex = insertOnArray(splitURL);
 
-var addLanguage = _.compose(joinHash, URLInsertOnIndex(2));
+var addLanguage = _.compose(joinHash, URLInsertOnIndex(indexOfAddedLanguage));
 
 var removeFromURL = _.compose(joinHash, removeOnArray(splitURL));
 
@@ -38,7 +41,7 @@ $(function(){
 
     var ln = $(this).data('language');
     if(ln == 'en') {
-      window.location.replace(removeFromURL(2));
+      window.location.replace(removeFromURL(indexOfAddedLanguage));
     }
     else {
       window.location.replace(addLanguage('pt'))
