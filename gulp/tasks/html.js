@@ -29,7 +29,7 @@ gulp.task('html',['html:clean'], function(data){
                     return '';
                   }
                   if(process.env.NODE_ENV == 'production') {
-                    return '/site';
+                    return '';
                   }
                 })()
               }
