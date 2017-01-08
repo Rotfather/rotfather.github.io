@@ -1,5 +1,12 @@
 {
   "language": "pt",
+  "pageTitle": {
+    "home": "The Rotfather",
+    "game": "The Rotfather Game - The Rotfather",
+    "project": "The Rotfather Project - The Rotfather",
+    "products": "The Rotfather Products - The Rotfather",
+    "contact": "Contact Us - The Rotfather"
+  },
   "nav": {
     "home": "Home",
     "product": "Produto",

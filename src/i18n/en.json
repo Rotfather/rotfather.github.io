@@ -1,5 +1,12 @@
 {
   "language": "en",
+  "pageTitle": {
+    "home": "The Rotfather",
+    "game": "The Rotfather Game - The Rotfather",
+    "project": "The Rotfather Project - The Rotfather",
+    "products": "The Rotfather Products - The Rotfather",
+    "contact": "Contact Us - The Rotfather"
+  },
   "nav": {
     "home": "Home",
     "product": "Product",
@@ -7,7 +14,6 @@
     "contact": "Contact Us",
     "project": "Project"
   },
-  "pageTitle": "Rotfather",
   "home_intro": "The Rotfather is a 2D game about the history of Al Kane, he is betrayed and has to get his dealing empire back",
   "home_text2": "The Rotfather is in Greenlight",
   "home_cta": "Greenlight Us",

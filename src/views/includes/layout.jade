@@ -1,7 +1,8 @@
 doctype html
 html(lang="en")
   head
-    title= pageTitle
+    -var title = locals.content.pageTitle
+    block title
     link(rel="stylesheet" type="text/css" href="#{context_path}/assets/css/main.css")  
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     script.
@@ -22,35 +23,19 @@ html(lang="en")
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          // refactor THIS later  
-          if content.language == 'pt'  
-            a.navbar-brand(href="pt/")
-              img.hidden-xs(src="#{context_path}/assets/images/brand.png")
-              img.visible-xs(src="#{context_path}/assets/images/brand-xs.png")
-          else
-            a.navbar-brand(href="/")
-              img.hidden-xs(src="#{context_path}/assets/images/brand.png")
-              img.visible-xs(src="#{context_path}/assets/images/brand-xs.png")
+          a.navbar-brand(href=content.language == 'pt' ? '/pt' : '/')
+            img.hidden-xs(src="#{context_path}/assets/images/brand.png")
+            img.visible-xs(src="#{context_path}/assets/images/brand-xs.png")
         .collapse.navbar-collapse(id="navbar-collapse")
           ul.nav.navbar-nav
-            if content.language == 'pt'
-              li  
-                a(href="./game.html")= content.nav.game  
-              li  
-                a(href="./products.html")= content.nav.product
-              li  
-                a(href="/project.html")= content.nav.project     
-              li  
-                a(href="./contact.html")= content.nav.contact 
-            if content.language == 'en'
-              li  
-                a(href="game.html")= content.nav.game 
-              li  
-                a(href="products.html")= content.nav.product  
-              li  
-                a(href="project.html")= content.nav.project       
-              li  
-                a(href="contact.html")= content.nav.contact   
+            li  
+              a(href="game.html")= content.nav.game 
+            li  
+              a(href="products.html")= content.nav.product  
+            li  
+              a(href="project.html")= content.nav.project       
+            li  
+              a(href="contact.html")= content.nav.contact   
             if content.language == 'pt'
               li
                 a.js-locale-change(data-language="en") change language to en

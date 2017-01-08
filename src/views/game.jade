@@ -1,7 +1,9 @@
 extends ./includes/layout.jade
+block title
+  title= title.game
 block content
   header.hero-image
-    img.img-responsive(src="#{context_path}/assets/images/game_hero.jpg")
+    img.img-responsive(src="#{context_path}/assets/images/game_hero.jpg" alt="The Rotfather Game")
   .container.hero-text-container
     h1.heading-1= content.gameTitle
     .row: .col-md-8.col-md-offset-2

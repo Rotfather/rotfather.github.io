@@ -1,7 +1,9 @@
 extends ./includes/layout.jade
+block title
+  title= title.home
 block content
   header.hero-image
-    img.img-responsive(src="#{context_path}/assets/images/home_hero.jpg")
+    img.img-responsive(src="#{context_path}/assets/images/home_hero.jpg" alt="The Rotfather Project")
   .container.hero-text-container
     h1.display= content.home_intro
   section.video-container

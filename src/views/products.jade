@@ -1,4 +1,6 @@
 extends ./includes/layout.jade
+block title
+  title= title.products
 block content
   header.hero-product-image
     img.img-responsive(src="#{context_path}/assets/images/product_hero.jpg")
