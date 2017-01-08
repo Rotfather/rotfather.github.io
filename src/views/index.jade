@@ -8,23 +8,10 @@ block content
     #player
   .container.hero-text-container
     h2.mtd.mb= content.home_text2
-    a.btn.btn-ghost.btn-lg(href="https://steamcommunity.com/sharedfiles/filedetails/?id=528262736" target="_blank")= content.home_cta
+    a.btn.btn-ghost.btn-lg(href="https://steamcommunity.com/sharedfiles/filedetails/?id=528262736" target="_blank" onclick="ga('send', 'event', 'Button', 'clicked', 'Greenlight Button')")= content.home_cta
   section.container-fluid
     h2.heading-2.heading-border= content.partners
     .row
-      //- .t
-      //-   .t-cell-50-xs.t-cell-10
-      //-     img.img-partners(src="#{context_path}/assets/images/partners/ufsc.png")
-      //-   .t-cell-50-xs.t-cell-10
-      //-     img.img-partners(src="#{context_path}/assets/images/partners/unity-logo.png")
-      //-   .t-cell-50-xs.t-cell-10
-      //-     img.img-partners(src="#{context_path}/assets/images/partners/nhtv.png")  
-      //-   .t-cell-50-xs.t-cell-10
-      //-     img.img-partners(src="#{context_path}/assets/images/partners/studica_logo.png")
-      //-   .t-cell-50-xs.t-cell-10
-      //-     img.img-partners#g2e-brand(src="#{context_path}/assets/images/partners/girafas.png")
-      //-   .t-cell-50-xs.t-cell-10
-      //-     img.img-partners(src="#{context_path}/assets/images/partners/zbrush.png")
       .img-partners
         img#ufsc-brand(src="#{context_path}/assets/images/partners/ufsc.png")
       .img-partners
