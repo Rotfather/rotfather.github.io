@@ -1,11 +1,14 @@
 {
   "language": "en",
   "pageTitle": {
-    "home": "The Rotfather",
+    "home": "The Rotfather: A Transmedia Project",
     "game": "The Rotfather Game - The Rotfather",
     "project": "The Rotfather Project - The Rotfather",
     "products": "The Rotfather Products - The Rotfather",
     "contact": "Contact Us - The Rotfather"
+  },
+  "pageDescriptions": {
+    "home": "The Rotfather is a transmedia project that has a complex mafia storyworld spread differently in a good number of medium"
   },
   "nav": {
     "home": "Home",

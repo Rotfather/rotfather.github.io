@@ -1,6 +1,7 @@
 extends ./includes/layout.jade
 block title
   title= title.game
+  meta(name="description" content=description.home)
 block content
   header.hero-image
     img.img-responsive(src="#{context_path}/assets/images/game_hero.jpg" alt="The Rotfather Game")

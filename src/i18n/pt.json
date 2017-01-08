@@ -7,6 +7,9 @@
     "products": "The Rotfather Products - The Rotfather",
     "contact": "Contact Us - The Rotfather"
   },
+  "pageDescriptions": {
+    "home": "The Rotfather is a transmedia project that has a complex mafia storyworld spread differently in a good number of medium"
+  },
   "nav": {
     "home": "Home",
     "product": "Produto",
